@@ -116,14 +116,25 @@ export default function Navbar({ currentPage, handlePageChange }) {
 						</a>
 						<a
 							className={
-								currentPage === "Signup" || "Login"
+								currentPage === "Login"
+									? "nav-link active"
+									: "nav-link"
+							}
+							href="#login"
+							onClick={() => handlePageChange("Login")}
+						>
+							Login
+						</a>
+						<a
+							className={
+								currentPage === "Signup"
 									? "nav-link active"
 									: "nav-link"
 							}
 							href="#signup"
 							onClick={() => handlePageChange("Signup")}
 						>
-							Login/Signup
+							Signup
 						</a>
 					</div>
 				)}
