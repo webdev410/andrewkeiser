@@ -8,7 +8,7 @@ import Auth from "../utils/auth";
 
 const Signup = ({ title, currentPage, handlePageChange }) => {
 	useEffect(() => {
-		document.title = `${title}`;
+		document.title = `${title} | React Portfolio`;
 	});
 	const [formState, setFormState] = useState({
 		name: "",
