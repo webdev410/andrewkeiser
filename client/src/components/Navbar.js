@@ -116,7 +116,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
 						</a>
 						<a
 							className={
-								currentPage === "Signup"
+								currentPage === "Signup" || "Login"
 									? "nav-link active"
 									: "nav-link"
 							}
