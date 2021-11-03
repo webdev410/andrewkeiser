@@ -1,0 +1,8 @@
+.valid {
+    border: 2px solid green !important;
+    content: "Looks good!";
+}
+
+.invalid {
+    border: 2px solid red !important;
+}

@@ -1,0 +1,17 @@
+.profile-pic {
+    border-radius: 50%;
+    width: 20%;
+}
+
+p {
+    font-size: small;
+}
+
+.readMoreContent {
+    display: none;
+}
+
+.readMoreBtn {
+    background-color: transparent !important;
+    border: none;
+}

@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  background-color: none;
+}
+
+.active {
+  color: #121c3f !important;
+}
+
+.footer-icon {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  margin: 5px;
+}
+
+.footer-list {
+  flex-direction: row !important;
+}
