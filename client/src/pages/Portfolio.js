@@ -61,19 +61,22 @@ export default function Portfolio(props) {
 		document.title = `${props.title} | React Portfolio`;
 	});
 	return (
-		<div className="fadeIn">
+		<div className="fadeIn ">
 			<h1 className="display-5 fw-bold">{props.title}</h1>
 			<div className="container">
+				<p>Thank you for viewing my portfolio. </p>
 				<p>
-					This is simply a react version of my portfolio. A full
-					portfolio can be found
-					<a className="m-1" href="https://www.andrewkeiser.me">
-						here.
+					For questions, please fill out the form on the contact page
+					or email me at{" "}
+					<a href="mailto:info@andrewkeiser.me">
+						info@andrewkeiser.me
 					</a>
+					.
 				</p>
 				<div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 					{portfolioItems.map((site) => (
 						<PortfolioCard
+							key={site.title}
 							title={site.title}
 							repo={site.repo}
 							deployed={site.deployed}
