@@ -10,6 +10,11 @@ const portfolioItems = [
 		deployed: "https://www.andrewkeiser.me/",
 	},
 	{
+		title: "Video Streaming Application",
+		repo: "https://github.com/Demo-Day/team-stream",
+		deployed: "https://team-stream-demo.herokuapp.com/",
+	},
+	{
 		title: "Invoicing System",
 		repo: "https://github.com/webdev410/invoice-system",
 		deployed: "https://invoice-tech.herokuapp.com/",

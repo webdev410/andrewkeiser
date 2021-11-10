@@ -20,14 +20,14 @@ export default function TipOverlay() {
 			name: "LinkedIn",
 			url: "https://www.linkedin.com/in/andrew-keiser-1/",
 		},
-		{
-			name: "Instagram",
-			url: "https://www.instagram.com/andrewkeiser_/",
-		},
-		{
-			name: "Facebook",
-			url: "https://www.facebook.com/akeiser0",
-		},
+		// {
+		// 	name: "Instagram",
+		// 	url: "https://www.instagram.com/andrewkeiser_/",
+		// },
+		// {
+		// 	name: "Facebook",
+		// 	url: "https://www.facebook.com/akeiser0",
+		// },
 		{
 			name: "Email",
 			url: "mailto:info@andrewkeiser.me",
@@ -41,12 +41,12 @@ export default function TipOverlay() {
 		if (sites.name === "LinkedIn") {
 			return <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>;
 		}
-		if (sites.name === "Facebook") {
-			return <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>;
-		}
-		if (sites.name === "Instagram") {
-			return <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>;
-		}
+		// if (sites.name === "Facebook") {
+		// 	return <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>;
+		// }
+		// if (sites.name === "Instagram") {
+		// 	return <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>;
+		// }
 		if (sites.name === "Email") {
 			return <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>;
 		}
